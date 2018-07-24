@@ -82,6 +82,7 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
+Plug 'thinca/vim-quickrun'
 Plug 'chxuan/cpp-mode'
 Plug 'chxuan/vim-edit'
 Plug 'chxuan/change-colorscheme'
