@@ -159,11 +159,11 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "
 
 " 主题
 set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+let g:onedark_termcolors=256
+colorscheme onedark
 
 " airline
-let g:airline_theme="solarized"
+let g:airline_theme="dark"
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 if !exists('g:airline_symbols')
@@ -173,6 +173,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+
 
 " cpp-mode
 nnoremap <leader>y :CopyCode<cr>
