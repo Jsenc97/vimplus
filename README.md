@@ -134,6 +134,7 @@ An automatic configuration program for vim
 | `<leader>d`  | 删除当前buffer                       |
 | `<leader>D`  | 删除当前buffer外的所有buffer         |
 | `vi`         | 运行vi编辑器时,默认启动开始页面      |
+| `<F1>`       | 一键执行脚本代码               |
 | `<F5>`       | 显示语法错误提示窗口                 |
 | `<F7>`       | 启用markdown实时预览                 |
 | `<F8>`       | 关闭markdown实时预览                 |
