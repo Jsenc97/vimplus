@@ -6,11 +6,6 @@
 "       \_/_/_/ /_/ /_/ ,___/_/\____/____/
 "                    /_/
 "            
-"
-" Author: chxuan <787280310@qq.com>
-" Repository: https://github.com/chxuan/vimplus
-" Create Date: 2016-04-10
-" License: MIT
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 通用设置
@@ -92,7 +87,7 @@ Plug 'chxuan/vim-edit'
 Plug 'chxuan/change-colorscheme'
 Plug 'chxuan/prepare-code'
 Plug 'chxuan/vim-buffer'
-Plug 'chxuan/vimplus-startify'
+Plug 'mhinz/vim-startify'
 Plug 'chxuan/tagbar'
 Plug 'Valloric/YouCompleteMe'
 Plug 'Yggdroot/LeaderF'
@@ -163,8 +158,8 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "
 
 " 主题
 set background=dark
-let g:onedark_termcolors=256
-colorscheme onedark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 " airline
 let g:airline_theme="onedark"
