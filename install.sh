@@ -168,7 +168,6 @@ function print_logo()
     echo ''
     echo ''
     echo 'Just enjoy it!'
-    echo 'p.s. Follow me at https://github.com/chxuan.'
     echo ''
     printf "${normal}"
 }
