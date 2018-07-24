@@ -3,7 +3,7 @@
 An automatic configuration program for vim
 ===============================================
 
-![][2]
+
 
 ## 安装
 
