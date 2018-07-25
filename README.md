@@ -2,7 +2,7 @@
 
 An automatic configuration program for vim
 ===============================================
-注意：只是做了一些小小的修改具体请参照https://github.com/chxuan/vimplus
+注意：只是做了一些小改动具体请参照https://github.com/chxuan/vimplus
 
 
 ## 安装
