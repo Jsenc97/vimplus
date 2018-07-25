@@ -1,13 +1,2 @@
 " 开启相对行号
 "set relativenumber  
-
-"设置F1或者,r一键运行脚本
-let g:quickrun_config = {
-\   "_" : {
-\       "outputter" : "message",
-\   },
-\}
-
-let g:quickrun_no_default_key_mappings = 1
-nmap <Leader>r <Plug>(quickrun)
-map <F1> :QuickRun<CR>
