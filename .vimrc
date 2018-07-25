@@ -228,7 +228,8 @@ let g:quickrun_config = {
 \}
 
 let g:quickrun_no_default_key_mappings = 1
-nmap <Leader>r <Plug>(quickru
+nmap <Leader>r <Plug>(quickrun)
+map <F1> :QuickRun<CR>
 
 " YCM
 let g:ycm_confirm_extra_conf = 0 
