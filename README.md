@@ -18,7 +18,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/Jsenc97/vimplus.git ~/.vimplus
     cd ~/.vimplus
     ./install.sh
     ```
@@ -32,7 +32,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/Jsenc97/vimplus.git ~/.vimplus
     cd ~/.vimplus
     sudo ./install.sh
     ```
@@ -46,7 +46,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/Jsenc97/vimplus.git ~/.vimplus
     cd ~/.vimplus
     sudo ./install.sh
     ```
@@ -56,7 +56,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/Jsenc97/vimplus.git ~/.vimplus
     cd ~/.vimplus
     sudo ./install.sh
     ```
@@ -64,47 +64,6 @@ An automatic configuration program for vim
 ## 个性化
 
 修改 `~/.vimrc.local` 文件内容，以启用个性化定制，可覆盖 `~/.vimrc` 中的设置。
-
-
-## 插件列表
-
-| 插件                                | 说明                                                                           |
-| -------                             | -----                                                                          |
-| [cpp-mode][58]                      | 提供生成函数实现、函数声明/实现跳转、.h .cpp切换等功能(I'm author:smile:)      |
-| [vim-edit][72]                      | 方便的文本编辑插件(I'm author:smile:)                                          |
-| [change-colorscheme][27]            | 随心所欲切换主题(I'm author:smile:)                                            |
-| [prepare-code][67]                  | 新建文件时，生成预定义代码片段(I'm author:smile:)                              |
-| [vim-buffer][70]                    | vim缓存操作(I'm author:smile:)                                                 |
-| [vimplus-startify][66]              | vimplus开始页面(修改自[mhinz/vim-startify][25])                                |
-| [tagbar][74]                        | 使用[majutsushi/tagbar][13]的v2.3版本，[taglist][14]的替代品，显示类/方法/变量 |
-| [vim-plug][4]                       | 比[Vundle][54]下载更快的插件管理软件                                           |
-| [YouCompleteMe][5]                  | 史上最强大的基于语义的自动补全插件，支持C/C++、C#、Python、PHP等语言           |
-| [NerdTree][6]                       | 代码资源管理器                                                                 |
-| [vim-nerdtree-syntax-highlight][52] | NerdTree文件类型高亮                                                           |
-| [nerdtree-git-plugin][53]           | NerdTree显示git状态                                                            |
-| [vim-devicons][15]                  | 显示文件类型图标                                                               |
-| [Airline][8]                        | 可以取代[powerline][9]的状态栏美化插件                                         |
-| [auto-pairs][10]                    | 自动补全引号、圆括号、花括号等                                                 |
-| [LeaderF][56]                       | 比[ctrlp][12]更强大的文件的模糊搜索工具                                        |
-| [ack][62]                           | 强大的文本搜索工具                                                             |
-| [vim-surround][16]                  | 自动增加、替换配对符的插件                                                     |
-| [vim-commentary][17]                | 快速注释代码插件                                                               |
-| [vim-repeat][18]                    | 重复上一次操作                                                                 |
-| [vim-endwise][19]                   | if/end/endif/endfunction补全                                                   |
-| [tabular][20]                       | 代码、注释、表格对齐                                                           |
-| [vim-easymotion][23]                | 强大的光标快速移动工具，强大到颠覆你的插件观                                   |
-| [incsearch.vim][24]                 | 模糊字符搜索插件                                                               |
-| [markdown-preview][26]              | markdown实时预览                                                               |
-| [pydiction][32]                     | 基于字典的python语法补全                                                       |
-| [vim-fugitive][36]                  | 集成Git                                                                        |
-| [gv][64]                            | 显示git提交记录                                                                |
-| [vim-slash][50]                     | 优化搜索，移动光标后清除高亮                                                   |
-| [echodoc][57]                       | 补全函数时在命令栏显示函数签名                                                 |
-| [vim-smooth-scroll][60]             | 让翻页更顺畅                                                                   |
-| [vim-expand-region][61]             | 快速选择区域                                                                   |
-| [clever-f.vim][68]                  | 强化f和F键                                                                     |
-| [github-complete.vim][69]           | Emoji:dog:补全                                                                 |
-| [vimcdoc][73]                       | vim中文文档                                                                    |
 
 
 ## 快捷键
@@ -160,40 +119,6 @@ An automatic configuration program for vim
 | `fa`         | 查找字母a，然后再按f键查找下一个     |
 | `<c-x><c-o>` | Emoji:dog:补全                       |
 
-
-## Q & A
-
-- **`安装vimplus后Airline等插件有乱码，怎么解决？`**
-
-    linux和mac系统需设置终端字体为`Droid Sans Mono Nerd Font`。
-
-- **`xshell连接远程主机不能使用vim-devicons或乱码。`**
-
-    windows系统安装[Nerd Font][51]字体后并更改xshell字体即可。
-
-- **`安装vimplus会经常失败，安装了几次都不成功！！！`**
-
-    vimplus安装时需要访问外国网站，由于网络原因，可能会失败，安装成功也要1个多小时，ycm插件有200M左右，下载比较耗时，这里有下载好的[YouCompleteMe.tar.gz][37]文件，下载后解压到~/.vim/plugged/目录，并进入YouCompleteMe目录执行`./install.py --clang-completer`即可安装。
-
-- **`使用第三方库时怎么让ycm补全第三方库API？`**
-
-    vimplus安装完毕之后，`~`目录下将会生成两个隐藏文件分别是.vimrc和.ycm_extra_conf.py，其中.vimrc是vim的配置文件，.ycm_extra_conf.py是ycm插件的配置文件，当你需要创建一个project时，需要将.ycm_extra_conf.py拷贝到project的顶层目录，通过修改该配置文件里面的`flags`变量来添加你的第三方库路径。
-
-- **`安装vimplus完成后ycm不能够工作！！！`**
-
-    这里的原因可能就有很多了，可能每个人遇到的问题不一样，但`vimplus`尽最大努力不让用户操心，需要注意的是ycm插件只支持`64`位的系统，更多信息请访问[ycm官网][38]。
-
-- **`在Archlinux环境下不能使用ycm怎么办？(缺少libtinfo.so.5)`**
-
-    在Archlinux下可以试着使用pkgfile命令搜索依赖的文件具体在什么包内，目前找到的包含libtinfo.so.5的包是ncurses5-compat-libs(AUR)或者32位的lib32-ncurses5-compat-libs(AUR)，安装后即可正常使用。
-
-- **`以上没有我遇到的问题怎么办？`**
-
-    您可以通过上网找解决方法，或提[Issues][39]，也可以通过发邮件方式`787280310@qq.com`一起讨论解决方法。
-
-- **`vimplus用起来真的太棒了，怎么办？`**
-
-    那就麻烦您打赏一颗:star::star:吧，给予我继续维护的动力。
 
 
 ## 特性展示
