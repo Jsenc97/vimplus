@@ -97,8 +97,6 @@ An automatic configuration program for vim
 | `<F5>`       | 显示语法错误提示窗口                 |
 | `<F7>`       | 启用markdown实时预览                 |
 | `<F8>`       | 关闭markdown实时预览                 |
-| `<F9>`       | 显示上一主题                         |
-| `<F10>`      | 显示下一主题                         |
 | `<leader>l`  | 按竖线对齐                           |
 | `<leader>=`  | 按等号对齐                           |
 | `Ya`         | 复制行文本到字母a                    |
