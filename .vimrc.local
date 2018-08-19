@@ -1,2 +1,3 @@
 " 开启相对行号
 "set relativenumber  
+set pastetoggle=<F2>
